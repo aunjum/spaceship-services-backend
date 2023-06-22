@@ -31,7 +31,7 @@ Laravel 4.5.0
   DB_USERNAME=your_user_name
   DB_PASSWORD=
 ```
-[db-image](#)
+![Db Image](https://github.com/aunjum/spaceship-services-backend/blob/main/instructions/ss/1_create-db.png)
 
 ### Step 4: Open new terminal and run below commands
 
@@ -42,17 +42,16 @@ Laravel 4.5.0
   php artisan storage:link 
   php artisan serve
 ```
+![Db Migrate](https://github.com/aunjum/spaceship-services-backend/blob/main/instructions/ss/2_db-migrate.png)
 
-### Step 5.0: Open your API testing app Ex: postman and import [spaceship-services.postman_collection.json](#) or folow the ss to create and get records
+### Step 5.0: Open your API testing app Ex: postman and import [spaceship-services.postman_collection.json](https://github.com/aunjum/spaceship-services-backend/blob/main/instructions/spaceship-services.postman_collection.json) or folow below instruction to create and get records
 
-### Step 5.1: Upload record by follwing this [instruction](#)
+### Step 5.1: Create record by follwing this [instruction](https://github.com/aunjum/spaceship-services-backend/blob/main/instructions/upload.txt) and this [assets](https://github.com/aunjum/spaceship-services-backend/tree/main/instructions/assets)
 
-[api-image](#)
+![Create Record](https://github.com/aunjum/spaceship-services-backend/blob/main/instructions/ss/3_store-data.png)
 
 ### Step 5.2: Check if all record are stored
 
-[api-image](#)
+![Show record](https://github.com/aunjum/spaceship-services-backend/blob/main/instructions/ss/4_get-data.png)
 
-[db-image](#)
-
-
+### Step 6: Now let's install our [frontend] (https://github.com/aunjum/spaceship-services-frontend)
