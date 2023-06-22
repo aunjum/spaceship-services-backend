@@ -1,0 +1,36 @@
+Upload images from assets folder
+
+1.
+image: 1_door-to-door.svg
+title: Door to Door Storage
+description: We pick up, store & deliver
+
+2.
+image: 2_self-access.svg
+title: Self Access Storage
+description: 24/7 Access Secured Storage Units
+
+3.
+image: 3_document-storage.svg
+title: Document Storage
+description: Store offsite and manage online
+
+4.
+image: 4_marketing-merchandise.svg
+title: Marketing Merchandise
+description: Send swags to us and click for return
+
+5.
+image: 5_retail_ecommerce.svg
+title: Retail and e-commerce
+description: We'll receive, store, pick, pack and ship
+
+6.
+image: 6_spacelabs.svg
+title: Co-Working and Co-Warehousing
+description: Work, store, operate and ship all in one place
+
+7.
+image: 7_office-with-storage.svg
+title: Office With Storage
+description: Office space with storage space

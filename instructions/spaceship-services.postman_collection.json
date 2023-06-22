@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "55cdfb97-fed1-423c-bdd6-f944973be4a2",
+		"name": "spaceship-services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6373091"
+	},
+	"item": [
+		{
+			"name": "Section store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/uxd/Downloads/8 spaceship services-20230613T015932Z-001/8 spaceship services/door-to-door.svg"
+						},
+						{
+							"key": "title",
+							"value": "Door to Door Storage",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "We pick up, store & deliver",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/section/store",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"section",
+						"store"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Section store",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/uxd/Downloads/8 spaceship services-20230613T015932Z-001/8 spaceship services/7_office-with-storage.svg"
+								},
+								{
+									"key": "title",
+									"value": "Office With Storage",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Office space with storage space",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/section/store",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"section",
+								"store"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Jun 2023 12:40:36 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Jun 2023 12:40:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.4"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"message\": \"Record saved\",\n    \"body\": {\n        \"image\": \"http://127.0.0.1:8000/storage/images/ZPdBcpLav9kIzpAJmjGIMy14LuwII579bhfazJdy.svg\",\n        \"title\": \"Office With Storage\",\n        \"description\": \"Office space with storage space\",\n        \"updated_at\": \"2023-06-22T12:40:36.000000Z\",\n        \"created_at\": \"2023-06-22T12:40:36.000000Z\",\n        \"id\": 7\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Section",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/section/get",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"section",
+						"get"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/section/get",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"section",
+								"get"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Jun 2023 13:17:53 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Jun 2023 13:17:53 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.4"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": 200,\n    \"message\": \"Record found\",\n    \"body\": [\n        {\n            \"id\": 1,\n            \"image\": \"http://127.0.0.1:8000/storage/images/2yCyump0rwtA4fdpu09VOB4eIPatpR49KPBVOZ4K.svg\",\n            \"title\": \"Door to Door Storage\",\n            \"description\": \"We pick up, store & deliver\"\n        },\n        {\n            \"id\": 2,\n            \"image\": \"http://127.0.0.1:8000/storage/images/C2hDBfEFSI9T5gPlh2QH6wNNjcmtK3gyI3dPQunW.svg\",\n            \"title\": \"Self Access Storage\",\n            \"description\": \"24/7 Access Secured Storage Units\"\n        },\n        {\n            \"id\": 3,\n            \"image\": \"http://127.0.0.1:8000/storage/images/ptt6yTZty4WQOnRHMoiWStWlFx13tqccnTRCsZzx.svg\",\n            \"title\": \"Document Storage\",\n            \"description\": \"Store offsite and manage online\"\n        },\n        {\n            \"id\": 4,\n            \"image\": \"http://127.0.0.1:8000/storage/images/h1QHEylrhXSLTD1eM5Z1CRdnprDWKA7btSaXYt9E.svg\",\n            \"title\": \"Marketing Merchandise\",\n            \"description\": \"Send swags to us and click for return\"\n        },\n        {\n            \"id\": 5,\n            \"image\": \"http://127.0.0.1:8000/storage/images/CENwYDGL6N1apg2c32BwtfoD2SxG32w1FhRuNtNx.svg\",\n            \"title\": \"Retail and e-commerce\",\n            \"description\": \"We'll receive, store, pick, pack and ship\"\n        },\n        {\n            \"id\": 6,\n            \"image\": \"http://127.0.0.1:8000/storage/images/S2tWv692ArJ71ay2btoSAuUUbM28CPx2P78BvUEy.svg\",\n            \"title\": \"Co-Working and Co-Warehousing\",\n            \"description\": \"Work, store, operate and ship all in one place\"\n        },\n        {\n            \"id\": 7,\n            \"image\": \"http://127.0.0.1:8000/storage/images/ZPdBcpLav9kIzpAJmjGIMy14LuwII579bhfazJdy.svg\",\n            \"title\": \"Office With Storage\",\n            \"description\": \"Office space with storage space\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
